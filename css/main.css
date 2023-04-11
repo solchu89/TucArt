@@ -448,6 +448,10 @@ main {
     flex-wrap: wrap;
     row-gap: 1rem;
   }
+  .fotonosotros {
+   display:grid;
+   align-items: center;
+  }
 }
 
 @media screen and (max-width: 400px) {
