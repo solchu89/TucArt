@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Registro.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="registrar">
+        <h1>Registro</h1>
+        <!-- Campo de usuario -->
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" required />
+        <!-- Campo de contraseña -->
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required />
+        <!-- Campo de correo electrónico -->
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+        <!-- Campo de selección de rol/tipo de usuario -->
+        <label for="rol">Rol:</label>
+        <select id="rol" name="rol" required>
+          <option value="">Seleccione un rol</option>
+          <option value="admin">Administrador</option>
+          <option value="usuario">Usuario</option>
+        </select>
+        <!-- Botón de registro -->
+        <button class="boton" type="button" onclick="registrarUsuario()">
+        <a href="Error.html">Registrarse</a>
+        </button>
+      </form>
+    </div>
+    <script src="Registro.js"></script>
+  </body>
+</html>

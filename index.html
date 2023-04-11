@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TucArt</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-mobile">
+        <!-- <img src="../resultado-final/img/tucArt Logo.png" alt="logo"> -->
+        <h1 class="logo">Tuc/Art</h1>
+        <button class="open-menu" id="open-menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </header>
+      <aside>
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x"></i>
+        </button>
+        <header>
+        <div class="logodiv">
+          <h1 class="logo">Tuc/Art</h1>
+          <br>
+          <button class="login"><a href="login.html">login</a></button>
+        </div>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="todos" class="boton-menu boton-categoria active">
+                <i class="bi bi-hand-index-thumb-fill"></i> OBRAS
+              </button>
+            </li>
+            <li>
+              <button id="arte" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> ARTE DIGITAL - PRINTS
+              </button>
+            </li>
+            <li>
+              <button id="pinturas" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> PINTURAS
+              </button>
+            </li>
+            <li>
+              <button id="fotografias" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> FOTOGRAFÍA
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-categoria" href="./about us.html">
+                <i class="bi bi-hand-index-thumb"></i> Nosotros
+              </a>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito" href="./carrito.html">
+                <i class="bi bi-cart-fill"></i> Carrito
+                <span id="numerito" class="numerito">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="texto-footer">© COMISIÓN 36I ROLLING CODE</p>
+        </footer>
+      </aside>
+      <main>
+        <h2 class="titulo-principal" id="titulo-principal">OBRAS</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+          <!-- Esto se va a rellenar con JS -->
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/menu.js"></script>
+  </body>
+</html>

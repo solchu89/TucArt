@@ -1,0 +1,182 @@
+[
+    {
+        "id": "obra-01",
+        "titulo": "Visite los 90' de Ximena Escalante",
+        "imagen": "./img/arte/01.jpg",
+        "categoria": {
+            "nombre": "Arte Digital - Prints",
+            "id": "arte"
+        },
+        "precio": 11000
+    },
+    {
+        "id": "obra-02",
+        "titulo": "S/T - Vero Corrales",
+        "imagen": "./img/arte/02.jpg",
+        "categoria": {
+            "nombre": "Arte Digital - Prints",
+            "id": "arte"
+        },
+        "precio": 7500
+    },
+    {
+        "id": "obra-03",
+        "titulo": "La Popular - Coche",
+        "imagen": "./img/arte/03.jpg",
+        "categoria": {
+            "nombre": "Arte Digital - Prints",
+            "id": "arte"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "obra-04",
+        "titulo": "Vaca Sagrada - Tito Quiroga",
+        "imagen": "./img/arte/04.jpg",
+        "categoria": {
+            "nombre": "Arte Digital - Prints",
+            "id": "arte"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "obra-05",
+        "titulo": "Sailor - Bernabé",
+        "imagen": "./img/arte/05.jpg",
+        "categoria": {
+            "nombre": "Arte Digital - Prints",
+            "id": "arte"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "pintura-01",
+        "titulo": "Coca - Daniela Jozami",
+        "imagen": "./img/pinturas/01.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 34000
+    },
+    {
+        "id": "pintura-02",
+        "titulo": "La Tecnologica - Ivan Rios",
+        "imagen": "./img/pinturas/02.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 11000
+    },
+    {
+        "id": "pintura-03",
+        "titulo": "S/T - Ivan Rios",
+        "imagen": "./img/pinturas/03.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 152000
+    },
+    {
+        "id": "pintura-04",
+        "titulo": "YB - Lobo de la Vega",
+        "imagen": "./img/pinturas/04.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 12200
+    },
+    {
+        "id": "pintura-05",
+        "titulo": "S/T - Florencia Ortiz Mayor",
+        "imagen": "./img/pinturas/05.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 13500
+    },
+    {
+        "id": "pintura-06",
+        "titulo": "S/T - Coche",
+        "imagen": "./img/pinturas/06.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "pintura-07",
+        "titulo": "Virreynato - Ezequiel Linares",
+        "imagen": "./img/pinturas/07.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 104200
+    },
+    {
+        "id": "pintura-08",
+        "titulo": "S/T - Alejandro Gomez Tolosa",
+        "imagen": "./img/pinturas/08.jpg",
+        "categoria": {
+            "nombre": "Pinturas",
+            "id": "pinturas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "foto-01",
+        "titulo": "Mercedita - Evi Tartari",
+        "imagen": "./img/fotografias/01.jpg",
+        "categoria": {
+            "nombre": "Fotografias",
+            "id": "fotografias"
+        },
+        "precio": 123000
+    },
+    {
+        "id": "foto-02",
+        "titulo": "Monumento al Sanguche de Milanesa - Sandro Pereira",
+        "imagen": "./img/fotografias/02.jpg",
+        "categoria": {
+            "nombre": "Fotografias",
+            "id": "fotografias"
+        },
+        "precio": 17500
+    },
+    {
+        "id": "foto-03",
+        "titulo": "Hijos - Julio Pantoja",
+        "imagen": "./img/fotografias/03.jpg",
+        "categoria": {
+            "nombre": "Fotografias",
+            "id": "fotografias"
+        },
+        "precio": 10200
+    },
+    {
+        "id": "foto-04",
+        "titulo": "S/T - Juan Perez",
+        "imagen": "./img/fotografias/04.jpg",
+        "categoria": {
+            "nombre": "Fotografias",
+            "id": "fotografias"
+        },
+        "precio": 14900
+    },
+    {
+        "id": "foto-05",
+        "titulo": "BOTE - Pepita Perez",
+        "imagen": "./img/fotografias/05.jpg",
+        "categoria": {
+            "nombre": "Fotografias",
+            "id": "fotografias"
+        },
+        "precio": 12300
+    }
+]

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  background-color: #11151a;
+}
+.container {
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  box-shadow: 0 50px 50px -50px rgb(77, 78, 78);
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #11151a;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  width: 100%;
+  border-bottom: 2px solid #11151a;
+  margin-bottom: 25px;
+  padding: 7px 0;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  color: #11151a;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+input[type="submit"]:hover {
+  background-color: #11151a;
+}
+
+.boton {
+  background-color: #11151a;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 20px;
+}
+.boton:hover {
+  opacity: 80%;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+  transform: scale(1.1);
+}
