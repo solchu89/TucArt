@@ -30,6 +30,11 @@ h1 {
   margin-bottom: 1em;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 label {
   display: block;
   font-size: 1.2em;
@@ -67,10 +72,12 @@ input[type="submit"]:hover {
 }
 
 .boton {
+  font-family: "Bebas Neue", cursive;
   background-color: #11151a;
   border-radius: 10px;
   color: white;
   padding: 7px 20px;
+  text-decoration: none;
 }
 .boton:hover {
   opacity: 80%;
